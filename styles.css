@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: black;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+#recommended-movies {
+    padding: 20px;
+}
+
+#movie-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.movie {
+    width: 200px;
+    cursor: pointer;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#movie-details {
+    display: none;
+    position: relative;
+    padding: 20px;
+}
+
+.movie-background img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.movie-info {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.movie-info img {
+    width: 200px;
+    height: auto;
+}
+
+#watch-trailer {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@ app = Flask(_name_)
 CORS(app)  # Enable Cross-Origin Resource Sharing
 
 # TMDB API Key
-API_KEY = "your_tmdb_api_key"
+API_KEY = "3e9f1c7118609c1b9508f291dded4c7d"
 BASE_URL = "https://api.themoviedb.org/3"
 
 # Database Connection
